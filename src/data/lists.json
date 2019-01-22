@@ -1,0 +1,26 @@
+[
+  {
+    "nom" : "sono",
+    "restriction" : ["micro"],
+    "priority" : 1,
+    "order" : 1
+  },
+  {
+    "nom" : "estrade",
+    "restriction" : ["micro"],
+    "priority" : 2,
+    "order" : 2
+  },
+  {
+    "nom" : "micro",
+    "restriction" : [],
+    "priority" : 0,
+    "order" : 3
+  },
+  {
+    "nom" : "accueil",
+    "restriction" : [],
+    "priority" : 3,
+    "order" : 4
+  }
+]

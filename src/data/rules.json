@@ -1,0 +1,29 @@
+[
+  {
+    "date":{
+      "per" : "week",
+      "freq": 2,
+      "days" : ["Lu","Sa"]
+    }
+  },
+  {
+    "sono" : {
+      "rules": {
+        "day": [3,2],
+        "priority" : 1,
+        "jumpBefore" : [0,0],
+        "jumpAfter" : [1,1]
+      }
+    }
+  },
+  {
+    "estrade" : {
+      "rules": {
+        "day": [1,1],
+        "priority" : 2,
+        "jumpBefore" : [3,0],
+        "jumpAfter" : [1,1]
+      }
+    }
+  }
+]

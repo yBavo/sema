@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Bavota, M.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Bavota, Y.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Bergeron, S.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Bolduc, R.",
+    "departement": ["micro", "accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Bombardier, L.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Bouchard, Ma.",
+    "departement": ["sono","estrade","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Bouchard, Mi.",
+    "departement": ["sono","estrade"],
+    "restriction": [],
+    "responsable": ["sono","estrade"]
+  },
+  {
+    "name": "Courtemanche, J.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Chauvette M.",
+    "departement": ["sono", "estrade", "accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Daigneault, C.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Delude, D.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Dube, M.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Forest, M.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Fournier, G.",
+    "departement": ["accueil"],
+    "restriction": ["micro"]
+  },
+  {
+    "name": "Fréchette, P.",
+    "departement": ["sono", "estrade", "accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Gagnon, Sa.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Gagnon, Sy.",
+    "departement": ["micro", "accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Gagnon, T.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Gilbert, A.",
+    "departement": ["micro", "accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Gilbert, J.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Grimard, D.",
+    "departement": [],
+    "restriction": []
+  },
+  {
+    "name": "Huard, J.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Jalbert, B.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Jean Jean, F.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "Kom, P.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Letendre J.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Lévesque, S.",
+    "departement": [],
+    "restriction": []
+  },
+  {
+    "name": "Mercier, J.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Monette, F.",
+    "departement": ["sono","estrade"],
+    "restriction": []
+  },
+  {
+    "name": "O'Malley, J.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Ouellet, D.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Oulai, J.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Oulai, L.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  },
+  {
+    "name": "Paquet G.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Patoine O.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Patoine G.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Pépin, B.",
+    "departement": ["micro"],
+    "restriction": ["q1"]
+  },
+  {
+    "name": "Poulin P.",
+    "departement": ["micro"],
+    "restriction": []
+  },
+  {
+    "name": "Plouffe, Y.",
+    "departement": [],
+    "restriction": []
+  },
+  {
+    "name": "Plourde, G.",
+    "departement": [],
+    "restriction": []
+  },
+  {
+    "name": "Roy P.",
+    "departement": ["micro","accueil"],
+    "restriction": []
+  }
+]
