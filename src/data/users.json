@@ -1,208 +1,259 @@
 [
   {
     "name": "Bavota, M.",
+    "firstName" : "Malcom",
+    "lastName" : "Bavota",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bavota, Y.",
+    "firstName" : "Yan",
+    "lastName" : "Bavota",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bergeron, S.",
+    "firstName" : "Serge",
+    "lastName" : "Bergeron",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bolduc, R.",
+    "firstName" : "Richard",
+    "lastName" : "Bolduc",
     "departement": ["micro", "accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bombardier, L.",
+    "firstName" : "Luc",
+    "lastName" : "Bombardier",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bouchard, Ma.",
     "departement": ["sono","estrade","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Bouchard, Mi.",
     "departement": ["sono","estrade"],
     "restriction": [],
-    "responsable": ["sono","estrade"]
+    "responsable": ["sono","estrade"],
+    "last" : []
   },
   {
     "name": "Courtemanche, J.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Chauvette M.",
     "departement": ["sono", "estrade", "accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Daigneault, C.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Delude, D.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Dube, M.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Forest, M.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Fournier, G.",
     "departement": ["accueil"],
-    "restriction": ["micro"]
+    "restriction": ["micro"],
+    "last" : []
   },
   {
     "name": "Fréchette, P.",
     "departement": ["sono", "estrade", "accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Gagnon, Sa.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Gagnon, Sy.",
     "departement": ["micro", "accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Gagnon, T.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Gilbert, A.",
     "departement": ["micro", "accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Gilbert, J.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Grimard, D.",
     "departement": [],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Huard, J.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Jalbert, B.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Jean Jean, F.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Kom, P.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Letendre J.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Lévesque, S.",
     "departement": [],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Mercier, J.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Monette, F.",
     "departement": ["sono","estrade"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "O'Malley, J.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Ouellet, D.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Oulai, J.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Oulai, L.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Paquet G.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Patoine O.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Patoine G.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Pépin, B.",
     "departement": ["micro"],
-    "restriction": ["q1"]
+    "restriction": ["q1"],
+    "last" : []
   },
   {
     "name": "Poulin P.",
     "departement": ["micro"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Plouffe, Y.",
     "departement": [],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Plourde, G.",
     "departement": [],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   },
   {
     "name": "Roy P.",
     "departement": ["micro","accueil"],
-    "restriction": []
+    "restriction": [],
+    "last" : []
   }
 ]

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import List from './List';
 import { fetchLists } from '../actions'
+import { Grid } from 'semantic-ui-react';
 
 class Lists extends Component {
   componentDidMount() {
@@ -10,20 +11,22 @@ class Lists extends Component {
 
   renderLists = () => {
     const { lists } = this.props;
-    if(lists.length > 0){
-      return lists.map(list =>
-        <List key={list.nom} title={list.nom}/>
+    if(lists.length){
+      return (
+        lists.map(list =>
+          <List key={list.nom} list={list}/>)
       );
     }
   }
 
-  render() {
-    
-    
+  render() {    
     return (
-      <div>
+      <Grid columns='equal'>
+      {/* <div style={{"display":"flex"}}> */}
         {this.renderLists()}
-      </div>
+      {/* </div> */}
+        
+      </Grid>
     )
   }
 }

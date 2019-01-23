@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
-import { Grid, Table } from 'semantic-ui-react';
-import Calendar from './components/Calendar';
+// import _ from 'lodash';
+
+// import Calendar from './components/Calendar';
 import Lists from './components/Lists';
 // import users from'./data/users.json';
 // import rules from'./data/rules.json';
@@ -13,13 +13,11 @@ class App extends Component {
   };
 
   render() {
-    return (
-      
+    return (    
       <div className="App ui container">
         <h1>SEMA</h1>
-        <Calendar/>
-        <Lists />
-        
+        {/* <Calendar/> */}
+        <Lists />      
       </div>
     );
   }
