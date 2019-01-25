@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import _ from 'lodash';
 
-// import Calendar from './components/Calendar';
+import Calendar from './components/Calendar';
 import Lists from './components/Lists';
 // import users from'./data/users.json';
 // import rules from'./data/rules.json';
@@ -16,7 +16,7 @@ class App extends Component {
     return (    
       <div className="App ui container">
         <h1>SEMA</h1>
-        {/* <Calendar/> */}
+        <Calendar />
         <Lists />      
       </div>
     );

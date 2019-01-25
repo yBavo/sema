@@ -21,18 +21,15 @@ class Lists extends Component {
 
   render() {    
     return (
-      <Grid columns='equal'>
-      {/* <div style={{"display":"flex"}}> */}
+      <Grid>
         {this.renderLists()}
-      {/* </div> */}
-        
       </Grid>
     )
   }
 }
 
-const mapStateToProps = (state) => ({
-  lists: state.lists
+const mapStateToProps = ({lists}) => ({
+  lists
 })
 
 export default connect(mapStateToProps,{ fetchLists })(Lists)

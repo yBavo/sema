@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
-// import _ from 'lodash';
+import _ from 'lodash';
 import { connect } from 'react-redux';
 import { Grid, Table } from 'semantic-ui-react';
-import { fetchUsers } from '../actions';
+import { fetchUsersList, fetchRule } from '../actions';
 
 class List extends Component {
   componentDidMount() {
-    this.props.fetchUsers();
+    const listName = this.props.list.nom;
+    
+    this.props.fetchUsersList(listName);
+    this.props.fetchRule(listName);
   }
 
   renderList(){
-    const { users, list } = this.props;
-    console.log(list)
-    if(users.length){
-      // const nColumns = list.departements.length;
+    const { users, list, rules } = this.props;
+    
+    if(users){
+      
       return (
-        <Grid.Column style={{"padding":0}}>
-        <Table celled style={{"margin":0, "padding":0}}>
+        <Table celled collapsing style={{"margin":0, "padding":0}}>
           <Table.Header>
             <Table.Row>
               {list.departements.map(d =>
@@ -34,29 +36,23 @@ class List extends Component {
           )}
           </Table.Body>
         </Table>
-        </Grid.Column>
       )
-    } else {
-      return null;
     }
   }
   
   render() {
    return (
-      // <div className='ui header'>
-      this.renderList()
-      // </div>
+    <Grid style={{"margin":0, "padding":0}}>
+      {this.renderList()}
+    </Grid>
     )
   }
 }
 
-const mapStatetoProps = ({users}, {list}) => {
-  let l = {};
-  if(users.length){
-    l = users.filter(u => u.departement.filter(d => d === list.nom)[0] === list.nom);
-  }
-  console.log(list.nom,l)
-  return {users: l}
-}
+const mapStatetoProps = ({users, rules}, {list}) => ({
+  users: users[list.nom],
+  rules: rules[list.nom]
+})
 
-export default connect(mapStatetoProps, {fetchUsers} )(List);
+
+export default connect(mapStatetoProps, {fetchUsersList, fetchRule} )(List);

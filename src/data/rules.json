@@ -1,6 +1,6 @@
 [
   {
-    "calendar":{
+    "calendar": {
       "type" : "weekly",
       "weekDay" : [1,6],
       "addDate" : [],
@@ -9,43 +9,58 @@
     }
   },
   {
-    "sono" : {
-      "nPersDay": [3,0,0,0,0,2,0],
-      "priority" : 1,
-      "skipNPersBefore" : [],
-      "skipNPersAfter" : [1,1]
+    "sono": {
+      "sono" : {
+        "nPersDay": [3,0,0,0,0,2,0],
+        "priority" : 1,
+        "order" : 1,
+        "skipNPersBefore" : [],
+        "skipNPersAfter" : [1,1],
+        "last" : "",
+        "next" : "Jean Jean, F."
+      },
+      "estrade" : {
+        "nPersDay": [1,0,0,0,0,1,0],
+        "priority" : 2,
+        "order" : 2,
+        "skipNPersBefore" : [3,2],
+        "skipNPersAfter" : [],
+        "last" : "Jalbert, B.",
+        "next" : ""
+      }
     }
   },
   {
-    "estrade" : {
-      "nPersDay": [1,0,0,0,0,1,0],
-      "priority" : 2,
-      "skipNPersBefore" : [3,2],
-      "skipNPersAfter" : []
-    }
-  },
-  {
-    "micro-gauche" : {
-      "nPersDay": [2,0,0,0,0,2,0],
-      "priority" : 0,
-      "skipNPersBefore" : [],
-      "skipNPersAfter" : []
-    }
-  },
-  {
-    "micro-droite" : {
-      "nPersDay": [2,0,0,0,0,2,0],
-      "priority" : 0,
-      "skipNPersBefore" : [],
-      "skipNPersAfter" : []
+    "micro" : {
+      "micro-gauche" : {
+        "nPersDay": [1,0,0,0,0,2,0],
+        "priority" : 0,
+        "order" : 3,
+        "skipNPersBefore" : [],
+        "skipNPersAfter" : [],
+        "last" : ""
+      },
+      "micro-droite" : {
+        "nPersDay": [1,0,0,0,0,2,0],
+        "priority" : 0,
+        "order" : 4,
+        "skipNPersBefore" : [],
+        "skipNPersAfter" : [],
+        "last" : ""
+      }
     }
   },
   {
     "accueil" : {
-      "nPersDay": [2,0,0,0,0,2,0],
-      "priority" : 3,
-      "skipNPersBefore" : [],
-      "skipNPersAfter" : []
+      "accueil" : {
+        "nPersDay": [2,0,0,0,0,2,0],
+        "priority" : 3,
+        "order" : 5,
+        "skipNPersBefore" : [],
+        "skipNPersAfter" : [],
+        "last" : "",
+        "next" : "Jean Jean, F."
+      }
     }
   }
 ]

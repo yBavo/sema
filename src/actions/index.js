@@ -1,4 +1,6 @@
 export { fetchList ,fetchLists } from './lists';
-export { fetchUser ,fetchUsers } from './users';
+export { fetchRule ,fetchRules } from './rules';
+export { fetchUsers,fetchUsersList } from './users';
+
 
 
